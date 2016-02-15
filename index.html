@@ -33,7 +33,7 @@
 <h3>
 <a id="welcome-to-the-resistome-repository" class="anchor" href="#welcome-to-the-resistome-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to the Resistome Repository!</h3>
 
-<p align="left">The Resistome is a manually curated database that aims to collect all known <em>Escherichia coli</em> genotypes that confer resistance to chemicals and environmental conditions into a standardized, easily analyzed central repository. To analyze these data, we offer a range of Python-based software tools for data visualization, statistical analysis, and machine learning to help researchers contextualize their experiments better. As for February 2016, the Resistome contains over 5,000 <em>E. coli</em> strains, resisting ~230 conditions, which are curated from 301 papers. A preliminary draft of our analysis can be found here (link to be added).</p>
+<p align="left">The Resistome is a manually curated database that aims to collect all known <em>Escherichia coli</em> genotypes that confer resistance to chemicals and environmental conditions into a standardized, easily analysed central repository. We have developed a range of Python-based software tools for data visualization, statistical analysis, and machine learning to help researchers contextualize their experiments better. As for February 2016, the Resistome contains over 5,000 <em>E. coli</em> strains, resisting ~230 conditions, which are curated from 301 papers. A preliminary draft of our analysis can be found here (link to be added).</p>
 
 <h3>
 <a id="why-is-the-resistome-necessary" class="anchor" href="#why-is-the-resistome-necessary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why is the Resistome necessary?</h3>
@@ -43,19 +43,24 @@
 <h3>
 <a id="tool-summary" class="anchor" href="#tool-summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tool Summary</h3>
 
-<p align="let">Several libraries have been created or adapted to simplify Resistome data analysis. Here are some of these tools that we have found to be the most useful when analyzing resistance genotypes:
-*Data Visualization: bar charts, heat maps, line plots, line/bar plots, stacked bar plots, scatter plots, histograms and CDF charts, Circos maps, and network visualization. Most of the utility functions use @Matlibplot as their base.
-*Statistical analyses: hypergeometric tests to compare list overlaps, FDR tests for analyzing gene ontology enrichment.
-*Machine Learning: Recommender system for comparing genotype feature vectors, graph clustering interfances between NetworkX and igraph. Mostly implemented within Numpy, Scipy, NetworkX, and igraph.
-*Parsing, data entry, and standardization utilities: parser grammars for each Resistome object (Paper, Mutant, Mutation) and their associated parsers, a simple local data entry tool for enforcing standardized curation, interfaces to the <a href="biocyc.org">(Biocyc databases)</a> to convert gene names to accession numbers, a Standardization class to transparently map input-to-standard text conversions.
+<p align="let">Several libraries have been created or adapted to simplify Resistome data analysis. Here are some of these tools that we have found to be the most useful when analysing resistance genotypes:
+<ul>
+<li>Data Visualization: bar charts, heat maps, line plots, line/bar plots, stacked bar plots, scatter plots, histograms and CDF charts, Circos maps, and network visualization. Most of the utility functions use @Matlibplot as their base.</li>
+<li>Statistical analyses: hypergeometric tests to compare list overlaps, FDR tests for analysing gene ontology enrichment</li>
+<li>Machine Learning: Recommender system for comparing genotype feature vectors, graph clustering interfaces between NetworkX and igraph. Mostly implemented within Numpy, Scipy, NetworkX, and igraph</li>
+<li>Parsing, data entry, and standardization utilities: parser grammars for each Resistome object (Paper, Mutant, Mutation) and their associated parsers, a simple local data entry tool for enforcing standardized curation, interfaces to the <a href="biocyc.org">(Biocyc databases)</a> to convert gene names to accession numbers, a Standardization class to transparently map input-to-standard text conversions</li>
+</ul>
 This list is not comprehensive; please take a look at our paper on biorxiv or the repository documentation to get a more complete overview of Resistome software.</p>
 
 <h3>
 <a id="who-are-we" class="anchor" href="#who-are-we" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Who are we?</h3>
 
-<p align="left">*James Winkler <a href="https://scholar.google.com/citations?user=1Xkkj8kAAAAJ&amp;hl=en">(gs)</a>  was a post-doctoral research associate at CU-Boulder (PI: Ryan Gill) and is the lead developer of the Resistome. His main research interests are adaptive laboratory evolution, machine learning, and systems biology.
-*Andrea Halweg-Edwards: RNA biologist and lab manager for the Ryan Gill group in charge of web development for the Resistome.
-*Ryan Gill: Principal Investigator at CU-Boulder; see <a href="http://www.gillgroup.org/">here</a> for more information.
+<p align="left">*
+<ul>
+<li>James Winkler <a href="https://scholar.google.com/citations?user=1Xkkj8kAAAAJ&amp;hl=en">(gs)</a>  was a post-doctoral research associate at CU-Boulder (PI: Ryan Gill) and is the lead developer of the Resistome. His main research interests are adaptive laboratory evolution, machine learning, and systems biology.</li>
+<li>Andrea Halweg-Edwards: RNA biologist and lab manager for the Ryan Gill group in charge of web development for the Resistome</li>
+<li>Ryan Gill: Principal Investigator at CU-Boulder; see <a href="http://www.gillgroup.org/">here</a> for more information</li>
+</ul>
 As others work on or extend the Resistome, they will be added to this list.</p>
 
 <h3>
